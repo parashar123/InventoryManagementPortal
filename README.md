@@ -1,5 +1,9 @@
 # InventoryManagementPortal
 
+Production ready code/ Published code at below path:
+UI: ...\InventoryManagementPortal\InventoryUI\ShopBridgeInventorySolution\dist
+Backend: ....\InventoryManagementPortal\InventoryApi\WebApplication1\bin\app.publish
+
 Steps important for configuring and using the application.
 
 **
