@@ -1,19 +1,25 @@
 Steps important for configuring and using the application.
 
-1) Run the sql scripts in correct sequence in sql server.
+**
+*** Required: SQL SERVER, VS CODE, VISUAL STUDIO, NODE JS
+**
+
+1) Run the sql scripts in correct sequence in sql server i.e createDB followed by creating Product table.
+.......InventoryManagementPortal\ImportantFiles
+
 2) Change the connection string in the web.config file for WebApplication1(InventoryApi poject).
 
  <connectionStrings>
     <add name ="InventoryAddDB" connectionString="Data Source=.;Initial Catalog=InventoryDB; Integrated Security=true" providerName="System.Data.SqlClient"/>
   </connectionStrings>
 
-3) Launch the above service.
+3) Launch the above service. Make sure api service is up and running.
 
 4) Go the ....\InventoryApp\InventoryUI\ShopBridgeInventorySolution and type cmd in the address path. 
 5) execute following:
    ng serve
 
-6) load Shop bridge application from the mentioned port by appending following:
+6) load Shop bridge application from the mentioned port by accessing following Url:
     http://localhost:4200/product
 
 7) Application default page only shows Application name and shows a welcome note.
